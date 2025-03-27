@@ -1,0 +1,8 @@
+.main {
+  display: flex;
+  /* flex: 1; */
+  background-color: #FFFFFF;
+  padding: 60px 63px;
+  gap: 10px;
+  overflow: scroll;
+}

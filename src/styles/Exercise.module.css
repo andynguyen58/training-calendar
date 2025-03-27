@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 3px;
+  border: 1px solid #DFDFDF;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-left: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: end;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.repCount {
+  font-size: 10px;
+  font-weight: 700;
+  color: #919CAD;
+}
+
+.informationText {
+  font-size: 10px;
+  font-weight: 400;
+  color: #95A6B7;
+  width: 115px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: end;
+}
